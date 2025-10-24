@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -9,8 +10,9 @@ function App() {
         Welcome! 🎉
       </h1>
       </main>
-    </div> 
-  );      
+      <Footer />
+    </div>
+  );
 }
 
 export default App; 
