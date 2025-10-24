@@ -1,11 +1,16 @@
+import Header from "./components/Header";
+
 function App() {
   return (
-    <div className="min-h-screen bg-blue-500 flex items-center justify-center">
-      <h1 className="text-6xl font-bold text-white">
-        Tailwind is Working! 🎉
+    <div className="min-h-screen bg-gray-50">
+      <Header />
+      <main className="container mx-auto px-4 py-8">
+      <h1 className="text-4xl font-bold text-center">
+        Welcome! 🎉
       </h1>
-    </div>
-  );
+      </main>
+    </div> 
+  );      
 }
 
-export default App;
+export default App; 
