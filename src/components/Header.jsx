@@ -4,36 +4,36 @@ function Header() {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
-          <h1 className="text-2xl font-bold text-blue-600">
+          <h1 className="text-3xl font-logo text-primary">
             🐾 Vet Hospital
           </h1>
         </div>
 
         {/* Navigation */}
         <nav className="hidden md:block">
-          <ul className="flex space-x-8">
+          <ul className="flex space-x-8 font-secondary">
             <li>
-              <a href="#" className="text-gray-700 hover:text-blue-600 font-medium transition">
+              <a href="#" className="text-secondary-dark hover:text-primary font-semibold transition">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-700 hover:text-blue-600 font-medium transition">
+              <a href="#" className="text-secondary-dark hover:text-primary font-semibold transition">
                 Services
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-700 hover:text-blue-600 font-medium transition">
+              <a href="#" className="text-secondary-dark hover:text-primary font-semibold transition">
                 About Us
               </a>
             </li>
             <li>
-              <a href="#" className="text-red-600 hover:text-red-700 font-semibold transition">
+              <a href="#" className="text-danger hover:text-danger font-bold transition">
                 Emergency
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-700 hover:text-blue-600 font-medium transition">
+              <a href="#" className="text-secondary-dark hover:text-primary font-semibold transition">
                 Contact
               </a>
             </li>
@@ -41,7 +41,7 @@ function Header() {
         </nav>
 
         {/* Book Appointment Button */}
-        <button className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition">
+        <button className="bg-primary text-white px-6 py-2 rounded-lg font-secondary font-semibold hover:bg-primary-dark transition">
           Book Appointment
         </button>
       </div>
