@@ -13,7 +13,7 @@ function Header() {
         <nav className="hidden md:block">
           <ul className="flex space-x-8 font-secondary">
             <li>
-              <a href="#" className="text-secondary-dark hover:text-primary font-semibold transition">
+              <a href="/" className="text-secondary-dark hover:text-primary font-semibold transition">
                 Home
               </a>
             </li>
@@ -33,7 +33,7 @@ function Header() {
               </a>
             </li>
             <li>
-              <a href="#" className="text-secondary-dark hover:text-primary font-semibold transition">
+              <a href="/contact" className="text-secondary-dark hover:text-primary font-semibold transition">
                 Contact
               </a>
             </li>
