@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <header className="bg-white shadow-md">
@@ -13,29 +15,29 @@ function Header() {
         <nav className="hidden md:block">
           <ul className="flex space-x-8 font-secondary">
             <li>
-              <a href="/" className="text-secondary-dark hover:text-primary font-semibold transition">
+              <Link to="/" className="text-secondary-dark hover:text-primary font-semibold transition">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="text-secondary-dark hover:text-primary font-semibold transition">
+              <Link to="/services" className="text-secondary-dark hover:text-primary font-semibold transition">
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="text-secondary-dark hover:text-primary font-semibold transition">
+              <Link to="/about" className="text-secondary-dark hover:text-primary font-semibold transition">
                 About Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="text-danger hover:text-danger font-bold transition">
+              <Link to="/emergency" className="text-danger hover:text-danger font-bold transition">
                 Emergency
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/contact" className="text-secondary-dark hover:text-primary font-semibold transition">
+              <Link to="/contact" className="text-secondary-dark hover:text-primary font-semibold transition">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
